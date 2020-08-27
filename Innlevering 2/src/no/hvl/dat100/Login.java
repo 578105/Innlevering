@@ -13,6 +13,21 @@ public class Login {
 		System.out.println(brukernavn);
 		System.out.println(passord);
 	
+		String mittBrukernavn = "brukernavn123";
+		String mittPassord = "passord123";
+		
+		String ut;
+		
+		
+		if (brukernavn.equals(mittBrukernavn))
+			ut ="Godkjent!";
+		else
+			ut = "Feil brukernavn eller passord";
+		
+		showMessageDialog(null,ut);
+		
+		
+			
 	}
 
 }
